@@ -21,3 +21,6 @@ repository 저장하렴너 staging 단계에서 저장해줘야함.
 7. git push -u *** master
 8. 원격(github) 확인
 
+원격에서 가져올때
+git pull *** master        - 변경사항만
+git clone url              - 전체
