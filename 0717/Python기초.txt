@@ -1,0 +1,68 @@
+0717 Python 기초
+
+Numeric Type
+ - int(정수), float(실수), complex(복소수)
+Sequence Types
+ - list, tuple, range
+Text Sequence Type
+ - str(문자열)
+Set Types
+ - set
+Mapping Ypes
+ - dict
+기타
+ - None, Boolean
+
+연산자 우선순위
+높음 **   지수
+      -    음수부호
+      *, /, //, %  곰셈, 나눗셈, 몫, 나머지
+낮음  +, -       덧셈, 뺄셈
+
+
+변수에 재할당
+>>> number = 10
+>>> double = 2*number
+>>> print(double)
+20
+>>> number = 5
+>>> print(double)
+20
+>>>
+
+
+변수표시
+#시간 예시
+seconds = 60
+minute = 60
+hours  = 24
+
+이렇게보다는 
+#상수(대문자로..?)
+SECONDS_PER_MINUTE = 60
+*PEP 8 - Style Guide for Python Code
+*pythontutor 사이트
+
+Commet(주석)
+#이것은
+#주석입니다
+
+"""
+여러줄 주석
+"""
+보통 이것 말고 드래그해서 Ctrl + /
+
+
+
+>>> 256*4
+1024
+>>> len(str(_))
+4
+
+
+__name__ 내장변수
+__name__=="__main__"
+
+formatting
+'{}'.format
+https://kkaeruk.tistory.com/7

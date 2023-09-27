@@ -1,0 +1,41 @@
+관통프로젝트
+
+포트폴리오. 내거 github 주소
+*github에 올려놓기
+
+API? - chatGPT API?
+Application Programming Interface
+
+python - API - ChatGPT
+
+<날씨 정보 불러오기>
+
+pip install requests
+- pip, 파이썬 패키지 관리 도구
+requests, 파이썬에서 서버에 요청을 보낼 수 있는 도구
+
+
+.json()????
+
+JavaScript Object Notation 의 약자.
+
+jupyter notebook 단축키
+##  'M' : 쉘 하나가 마크다운 모드로 변경
+## 'y' : 다시 코드모드로 변경
+## 'a' : 커서 기준 위에 쉘 하나 추가
+## 'b' : 커서 기준 아래에 쉘 하나 추가
+## 'd' : 쉘 삭제
+## 'shift + enter' : 실행 후 커서를 아래로 이동
+## 'ctrl + enter' : 실행 후 커서를 제자리에
+# ㅣn 표시, 코드모드
+
+
+도전과제
+1. 파이썬으로 정기예금데이터 수집 *금융감독원 API key, requests, 추출
+2. 영화추천 과제api 도출x 데이터(json)제공해줌
+
+4번
+금융상품코드 fin prdt cd
+금리정보-옵션들(금리rate, 기간trm, 유형type, 유형명type_nm)
+금융상품명
+금융회사명

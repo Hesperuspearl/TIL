@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Box</title>
+    <style>
+        .container {
+            height: 900px;
+            border: 2px solid black;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            
+            /* 주축정렬 */
+            /* justify-content:center */
+        /* } */
+
+        /* 교차축정렬 */
+            /* align-content: center */
+
+            /* align-items: center */
+
+        }
+
+
+        .item1 {
+            align-self: center;
+
+        }
+
+
+
+        .post {
+            background-color: grey;
+            border: 2px solid black;
+            margin: 0.5rem;
+            padding: 0.5rem;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <div class="container">
+            <div class="post item1">
+                <h2>Post Title 1</h2>
+                <p>Post Content 1</p>
+            </div>
+            <div class="post item2">
+                <h2>Post Title 2</h2>
+                <p>Post Content 2</p>
+            </div>
+            <div class="post item3">
+                <h2>Post Title 3</h2>
+                <p>Post Content 3</p>
+            </div>
+            <div class="post item4">
+                <h2>Post Title 4</h2>
+                <p>Post Content 4</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
